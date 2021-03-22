@@ -24,7 +24,7 @@ namespace FacultyAssembly
             cmd.Parameters.AddWithValue("@Name", "%" + name + "%");
             try
             {
-                Console.WriteLine("Helooo");     
+                Console.WriteLine("non");     
             }
             catch (Exception e)
             {
