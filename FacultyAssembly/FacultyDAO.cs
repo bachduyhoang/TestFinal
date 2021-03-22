@@ -25,6 +25,11 @@ namespace FacultyAssembly
             try
             {
                 Console.WriteLine("Helooo");     
+                Console.WriteLine("Helooo");     
+                Console.WriteLine("Helooo");     
+                Console.WriteLine("Helooo");     
+                Console.WriteLine("Helooo");     
+                Console.WriteLine("Helooo");     
             }
             catch (Exception e)
             {
