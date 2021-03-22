@@ -24,22 +24,7 @@ namespace FacultyAssembly
             cmd.Parameters.AddWithValue("@Name", "%" + name + "%");
             try
             {
-                cnn.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.HasRows)
-                {
-                    while (reader.Read())
-                    {
-                        Faculty faculty = new Faculty
-                        {
-                            ID = reader.GetInt32(0),
-                            Name = reader.GetString(1),
-                            Age = reader.GetInt32(2),
-                            Address = reader.GetString(3)
-                        };
-                        list.Add(faculty);
-                    }
-                }
+                sddfdsfdsfdsfd
             }
             catch (Exception e)
             {
